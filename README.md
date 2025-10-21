@@ -86,7 +86,7 @@ CREATE TABLE ecomerce.produto_pedido (
 ✅ Conexão direta com o banco de dados PostgreSQL
 
 
-##💻 Como Executar o Projeto
+## 💻 Como Executar o Projeto
 
 1️⃣ Clonar o repositório
 git clone https://github.com/SEU_USUARIO/ecommerce-java-jdbc.git
@@ -116,7 +116,7 @@ Rode a classe Main.java e interaja pelo console:
 5 - Listar tudo
 0 - Sair
 
-##🧑‍💻 Autor
+## 🧑‍💻 Autor
 
 João Emanuel Ribeiro Silva Martins
 📍 Goiânia - Goiás
