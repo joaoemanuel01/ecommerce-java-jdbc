@@ -73,3 +73,53 @@ CREATE TABLE ecomerce.produto_pedido (
     quantidade INT NOT NULL,
     PRIMARY KEY (pedido_id, produto_id)
 );
+```
+
+## 🧮 Funcionalidades
+
+✅ Cadastro de Categorias
+✅ Cadastro de Produtos
+✅ Cadastro de Pedidos
+✅ Associação de Produtos a Pedidos
+✅ Listagem de todos os registros (categorias, produtos, pedidos e produtos_pedido)
+✅ Atualização e exclusão via DAO
+✅ Conexão direta com o banco de dados PostgreSQL
+
+
+##💻 Como Executar o Projeto
+
+1️⃣ Clonar o repositório
+git clone https://github.com/SEU_USUARIO/ecommerce-java-jdbc.git
+
+2️⃣ Abrir no IntelliJ IDEA
+
+Importar como projeto Maven
+
+Garantir que o JDK 21 (Amazon Corretto) esteja configurado
+
+3️⃣ Configurar o banco de dados PostgreSQL
+
+Edite a classe DatabaseConnection.java com suas credenciais:
+
+private static final String URL = "jdbc:postgresql://localhost:5432/MeuBanco";
+private static final String USER = "seu_usuario";
+private static final String PASSWORD = "sua_senha";
+
+4️⃣ Executar o projeto
+
+Rode a classe Main.java e interaja pelo console:
+
+1 - Cadastrar Categoria
+2 - Cadastrar Produto
+3 - Cadastrar Pedido
+4 - Cadastrar ProdutoPedido
+5 - Listar tudo
+0 - Sair
+
+##🧑‍💻 Autor
+
+João Emanuel Ribeiro Silva Martins
+📍 Goiânia - Goiás
+📧 ribeirojoaoemanuel@gmail.com
+[Linkedin](https://www.linkedin.com/in/joão-emanuel-6407a2242)
+[Github](https://github.com/joaoemanuel01)
