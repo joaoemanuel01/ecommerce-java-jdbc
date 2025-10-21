@@ -17,6 +17,7 @@ O objetivo é demonstrar o uso de **CRUD completo (Create, Read, Update, Delete)
 ---
 
 ## 🧩 Estrutura do Projeto
+```
 src/
 └── main/
 ├── java/
@@ -28,6 +29,7 @@ src/
 └── resources/
 pom.xml
 
+```
 ## 🧠 Conceitos Aplicados
 
 - Programação orientada a objetos (POO)
